@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<title>BEMENTOR</title>
+</head>
+<style type="text/css">
+	h1 {
+		color: black;
+		font-size: 45px;
+		text-align: center;
+		margin: 0;
+		padding: 20px;
+	}
+	a {
+		color: black;
+		text-decoration: none;
+	}
+	nav {
+		text-align: right;
+	}
+	.saw{
+		color: white;
+		text-decoration: none;
+	}
+	img {
+		border-radius: 30px;
+	}
+	button {
+		text-align: center;
+	}
+</style>
+<body class="container">
+	<nav class="navbar navbar-light bg-light">
+	  	<div class="container-fluid">
+			<div class="dropdown">
+			  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+			    Bementor
+			  </button>
+			  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+				<li><a class="dropdown-item" href="#">My page</a></li>
+			    <li><a class="dropdown-item" href="#">Bementor Main</a></li>
+			    <li><a class="dropdown-item" href="#">Mentorshop</a></li>
+			    <li><a class="dropdown-item" href="#">Open Space</a></li>
+				<li><a class="dropdown-item" href="#">About Bementor</a></li>
+			  </ul>
+			</div>
+	    <form class="d-flex">
+		    <button type="button" class="btn btn-primary"><a href="login.html" class="saw">로그인</a></button>
+			<button type="button" class="btn btn-primary"><a href="signup.html" class="saw">회원가입</a></button>
+			<button type="button" class="btn btn-dark"><a href="#" class="saw">고객센터</a></button>
+	    </form>
+	  </div>
+	</nav>
+
+
+	<header>
+	<hr>
+		<style type="text/css">
+			.jumbotron{
+				background-size: cover;
+				text-shadow:black 0.2em 0.2em 0.2em ;
+				color: white;
+			}
+		</style>
+		<div class="container">
+			<div class="jumbotron">
+				<h1 class="text-center">BEMENTOR</h1>
+			</div>
+		</div>
+	</header>
+
+
+	<section>
+		<hr>
+		<br>
+		<div class="row">
+			<div class="col-md-4">
+			<div class="text-center" class="carousel-indicators">
+	  		</div>
+			   	<h4 class="text-center"><button class="btn btn-outline-primary btn-lg" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">Bemeto Main</button></h4>
+				<p class="text-center">내가 넘어진 곳에서 뒤의 사람들이 넘어지지 않도록...<br>앞의 사람들이 넘어진 곳에서 나는 넘어지지 않도록...</p>
+			</div>
+			<div class="col-md-4">
+				<h4 class="text-center"><button class="btn btn-outline-primary btn-lg" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2">Mentorshop</button></h4>
+				<p class="text-center">당신의 재능과 경험을 토대로 멘토가 되어주세요. 당신에게 알맞는 멘티를 찾아줍니다!혼자 고군분투하지 않아도 됩니다. 당신에세 안성맞춤인 멘토를 찾아줍니다.</p>
+			</div>
+			<div class="col-md-4">
+				<h4  class="text-center"><button class="btn btn-outline-primary btn-lg" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3">Open Space</button></h4>
+				<p class="text-center">내가 넘어진 곳에서 뒤의 사람들이 넘어지지 않도록...<br>앞의 사람들이 넘어진 곳에서 나는 넘어지지 않도록...</p>
+			</div>
+		</div>
+		
+
+	<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+	
+	  <div class="carousel-inner">
+	    <div class="carousel-item active">
+	      <img src="media/mentor1.jpg" class="d-block w-100" alt="...">
+	      <div class="carousel-caption d-none d-md-block">
+	        <h3>Bementor Main</h3>
+	      </div>
+	    </div>
+	    <div class="carousel-item">
+	      <img src="media/mentor1.jpg" class="d-block w-100" alt="...">
+	      <div class="carousel-caption d-none d-md-block">
+	        <h3>Mentorship</h3>
+	      </div>
+	    </div>
+	    <div class="carousel-item">
+	      <img src="media/mentor1.jpg" class="d-block w-100" alt="...">
+	      <div class="carousel-caption d-none d-md-block">
+	        <h3>Open Space</h3>
+	      </div>
+	    </div>
+	  </div>
+
+	</section>
+
+<div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+  	<p class="col-md-4 mb-0 text-muted">&copy; 2020-2022 Bementor<br> (주) 비멘토</p>
+
+    <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+      <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+    </a>
+
+    <ul class="nav col-md-4 justify-content-end">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">개발자: 윤제민</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">개발자 전화번호: 010-4077-0108</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">개발자 이메일: yjm1800@naver.com</a></li>
+    </ul>
+  </footer>
+</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
