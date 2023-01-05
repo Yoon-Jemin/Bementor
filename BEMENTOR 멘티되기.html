@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+    <title>멘티 되기</title>
+    <meta charset="utf-8">
+    <style>
+        .mentee{
+            border-bottom:1px solid gray;
+        }
+        h2{
+            border-right:1px solid gray;
+            width: 100px;
+            margin:0;
+            padding: 20px;
+            
+        }
+        .box{
+            display: grid;
+            grid-template-columns: 150px 1fr;  
+        }
+        .information{
+            padding: 5px;
+        }
+        input{
+            margin-top:8px;
+            margin-bottom:5px;
+            border: 10px;
+            border-radius: 5px;
+        }
+        .submit{
+            text-align: center;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="mentee">
+    <h1>멘티 되기</h1>
+    <p>
+        딱 이것만 쓰면 등록 완료!<br>
+        멘티님의 멋진 성장을 멘티티가 응원할게요.
+    </p>
+    <p>
+        * 단답, 서술 등의 답변 형식은 자유입니다.
+    </p>
+    </div>
+    <div class="box">
+    <h2>멘토링 정보</h2>
+    <div class="information">
+    이름*<br><input type="text" style="background-color: pink"/><br>
+    나이*<br><input type="text" style="background-color: pink"/><br>
+    성별* <br><input type="checkbox">남자 <input type="checkbox">여자<br>
+    전화번호*<br><input type="text" style="background-color: pink"/><br>
+    온라인 멘토링 가능 여부* <br><input type="checkbox">예 <input type="checkbox">아니오<br>
+    멘토링 관련 학업/진로 희망 분야*<br><input type="text" style="background-color: pink;"/><br>
+    받고 싶은 멘토링 유형*<br><input type="text" style="background-color: pink"/><br>
+    구체적으로 멘토링을 통해 얻어 가고 싶은 것*<br><input type="text" style="background-color: pink; width: 300px; height: 200px;"/><br>
+    스스로가 생각하는 본인의 학습 단계* <br><input type="checkbox">아직 이 분야를 배워본 적 없어요.<br>
+    <input type="checkbox">기본적인 개념들은 조금 알고 있어요.<br>
+    <input type="checkbox">관련 온라인/오프라인 강의를 들어본 적이 있어요.<br>
+    <input type="checkbox">기본적인 것들은 잘 이해하고 있어요.<br>
+    <input type="checkbox">현직자 수준의 멘토링을 원해요.<br>
+    원하는 멘토링 규모*<br><input type="checkbox">1:1이 좋아요.<br><input type="checkbox">다수와 함께해도 좋아요.<br>
+    멘토링 희망 지역('구'까지만 입력해주세요.)*<br><input type="text" style="background-color: pink"/><br>
+    멘토링 가능 시간(가능한 요일과 시간을 입력해주세요.)*<br><input type="text" style="background-color: pink"/><br>
+    전체 서비스 이용약관*<br><input type="checkbox"/>동의합니다.<br>
+    개인정보처리방침*<br><input type="checkbox"/>동의합니다.<br>
+    마케팅 수신 및 동의(권장)<br><input type="checkbox"/>동의합니다.<br>
+    </div>
+    </div>
+    <div class="submit">
+        <input type="button" value="멘티 신청하기">
+    </div>
+</body>
+</html>
